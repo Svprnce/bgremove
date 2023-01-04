@@ -1,0 +1,77 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-size: 16px;
+    background: none;
+    border: none;
+    font-family: Canva Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+.btn{
+    border: 1px solid black;
+    border-radius: 50px;
+}
+:root{
+    --bg-color:#fff;
+--txt-color:#343333;
+}
+.container{
+   
+    font-size: 16px;
+   
+}
+
+/* -----            Header                    ---------*/
+
+
+.header{
+    width: 100%;
+    display: flex;
+    padding: 20px 220px;
+    margin: 0px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    position: sticky;
+    background-color: var(--bg-color);
+    box-shadow: 0px 0.5px 0.1px 1.5px rgba(84, 83, 83, 0.05);
+}
+.header > .logo > h1{
+    color: var(--txt-color);
+    font-size: 2em;
+}
+.header > .logo > h1 > span{
+    color: gray;
+    font-size: 1.5rem;
+}
+.header > .nav{
+    position: absolute;
+    left: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header > .nav > ul{
+    display: flex;
+    font-size: 15px;
+}
+.header > .nav > ul > li{
+    margin-top: 3.5px;
+    margin-right: 20px;
+    font-size: 1.1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.header > .nav-btns > .log-nav-btn{
+   margin-right: 20px; 
+   
+}
+.header > .nav-btns > .sign-nav-btn{
+    border: none;
+    padding: 10px 25px;
+    font-weight: 650;
+    background-color: rgba(84, 83, 83, 0.05);
+}
